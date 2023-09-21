@@ -51,5 +51,6 @@ button {
 #img-spruce {
     max-height: 80vh;
     object-fit: scale-down;
+    max-width: 100%;
 }
 
