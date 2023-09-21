@@ -1,18 +1,36 @@
 html {
     background-color: black;
     color: rgb(45, 255, 45);
-    text-align: center;
+    /* text-align: center; */
 
+    /* height: 100vh; */
+    
+    color: white
+}
+
+body {
+    margin: 0;
     height: 100vh;
+    overflow: hidden;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    color: white
 }
 
 #title {
-    font-size: 60pt;
+    font-size: 5em;
+}
+
+@media screen and (max-width: 600px) {
+    #title {
+      font-size: 2rem;
+  
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
 }
 
 h1 {
@@ -28,5 +46,10 @@ button {
     font-size: 20pt;
     color:yellow;
     background-color: black;
+}
+
+#img-spruce {
+    max-height: 80vh;
+    object-fit: scale-down;
 }
 
